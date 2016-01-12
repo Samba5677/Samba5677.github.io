@@ -1,0 +1,27 @@
+/* Main Stylesheet */
+
+
+/* Global */
+body {
+  background: slategrey;
+}
+
+a {
+  float: right;
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/* Typography */
+
+/* Homepage */
+
+/* Resume */
