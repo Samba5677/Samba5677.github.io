@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Background IMG */
 body{
 background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/greyfloral.png");
@@ -161,3 +162,32 @@ ul {
 footer {
   clear: both;
 }
+=======
+/* Main Stylesheet */
+
+
+/* Global */
+body {
+  background: slategrey;
+}
+
+a {
+  float: right;
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/* Typography */
+
+/* Homepage */
+
+/* Resume */
+>>>>>>> origin/master
