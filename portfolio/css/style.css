@@ -1,0 +1,206 @@
+/* Work Cited for CSS Lightbox:  Lewis Martin at http://codepen.io/LewisMartin/pen/fdqmz */
+
+body {
+  background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/foggy_birds.png")
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+label {
+  cursor:pointer;
+}
+
+#gallery {
+  position:relative;
+  width:955px;
+  margin:10px auto;
+}
+
+#gallery>ul {
+  list-style-type:none;
+}
+
+#gallery li{
+  display:inline-block;
+  width:280px;
+  height:280px;
+  background-color:#AD8561;
+  border:1px solid #d6d6d6;
+  margin:10px 10px;
+  -webkit-box-shadow: 0 1px 1px #d9d9d9;
+  -moz-box-shadow: 0 1px 1px #d9d9d9;
+  box-shadow: 0 1px 1px #d9d9d9;
+}
+
+.image {
+  margin:8px auto;
+  width:260px;
+  height:260px;
+  border:1px solid #6E4D51;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+img{
+  display:block;
+}
+
+.lightbox {
+  position:fixed;
+  left:50%;
+  margin-left:-221px;
+  top:80px;
+  
+  padding:10px;
+  background-color: #AD8561;
+  border:1px solid #6E4D51;
+  visibility:hidden;
+  -webkit-box-shadow: 0 1px 6px #404040;
+  -moz-box-shadow: 0 1px 6px #404040;
+  box-shadow: 0 1px 6px #404040;
+  z-index:2;
+  opacity:0;
+          transition: all 0.2s ease-in-out; 
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+}
+.lightbox>img {
+   width:380px; 
+}
+
+.overlay {
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  background-color:black;
+  opacity:0;
+  visibility:hidden;
+  z-index:1;
+            transition: all 0.2s ease-in-out; 
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+}
+
+input[type='checkbox'] {
+  float:left;
+  margin-left:-9999px
+}
+
+input[type='checkbox']:checked ~ .overlay {
+  visibility:visible;
+    opacity:0.6;
+}
+
+#img1:checked ~ #lightbox1{
+  visibility:visible;
+  opacity:1;
+}
+#img2:checked ~ #lightbox2{
+  visibility:visible;
+  opacity:1;
+}
+#img3:checked ~ #lightbox3{
+  visibility:visible;
+  opacity:1;
+}
+
+#img4:checked ~ #lightbox4{
+  visibility:visible;
+  opacity:1;
+}
+
+#img5:checked ~ #lightbox5{
+  visibility:visible;
+  opacity:1;
+}
+
+#img6:checked ~ #lightbox6{
+  visibility:visible;
+  opacity:1;
+}
+
+#img7:checked ~ #lightbox7{
+  visibility:visible;
+  opacity:1;
+}
+
+#img8:checked ~ #lightbox8{
+  visibility:visible;
+  opacity:1;
+}
+
+#img9:checked ~ #lightbox9{
+  visibility:visible;
+  opacity:1;
+}
+
+#img10:checked ~ #lightbox10{
+  visibility:visible;
+  opacity:1;
+}
+
+#img11:checked ~ #lightbox11{
+  visibility:visible;
+  opacity:1;
+}
+
+#img12:checked ~ #lightbox12{
+  visibility:visible;
+  opacity:1;
+}
+
+#img13:checked ~ #lightbox13{
+  visibility:visible;
+  opacity:1;
+}
+
+#img14:checked ~ #lightbox14{
+  visibility:visible;
+  opacity:1;
+}
+
+#img15:checked ~ #lightbox15{
+  visibility:visible;
+  opacity:1;
+}
+/* Navigation Links */
+.nav{
+  position:absolute;
+  left:-120px;
+  margin:0px;
+  top: 40px;
+}
+.nav a{
+	background-color:#6E4D51;
+  display: block;
+	padding:20px 20px 20px 20px;
+  box-shadow:5px 5px 5px #888888;
+  transition: all 1s;
+  text-align: center;
+  
+}
+.nav a{
+	text-decoration:none;
+	color:#EBE4BE;
+	font-family: 'Goudy Old Style';
+	font-size:18px;
+
+}
+.nav a:hover{
+	text-decoration:none;
+	color:#AD8561;
+	font-family: 'Baskerville Old Face';
+	font-size:18px;
+	background-color:none;
+	padding:20px 5px 20px 5px;
+}
+.nav a:hover {
+  border-radius: 25%;
+}
