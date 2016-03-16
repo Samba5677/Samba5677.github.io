@@ -48,14 +48,14 @@ body{
 .nav ul li a{
 	text-decoration:none;
 	color:#EBE4BE;
-	font-family: 'Goudy Old Style';
+	font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
 	font-size:18px;
 
 }
 .nav ul li a:hover{
 	text-decoration:none;
 	color:#AD8561;
-	font-family: 'Baskerville Old Face';
+	font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
 	font-size:18px;
 	background-color:none;
 	padding:20px 5px 20px 5px;
@@ -68,12 +68,12 @@ li:hover {
 .name {
     background-color:#AD8561;
     width:900px;
-    height:1200px;
-    margin:45px 70px 70px 20px;
+    height:650px;
+    margin:45px 70px 0px 20px;
     padding:30px;
     float:left;
     color:#EBE4BE;
-    font-family: 'Baskerville Old Face';
+    font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
     font-size:75px;
     position:relative;
     text-align: center;
@@ -87,7 +87,7 @@ li:hover {
   top:110px;
 }
 .subtitle {
-  font-family: 'Palatino Linotype';
+  font-family: 'Palatino Linotype', Helvetica, Arial, Sans-serif;
 }
 
 /* Bio */
@@ -95,15 +95,16 @@ li:hover {
   color:#EBE4BE;
 	font-size:17px;
   position: relative;
-  bottom: 1110px;
+  bottom: 490px;
   width: 65%;
   left: 300px;
-  font-family: 'Goudy Old Style';
+  font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
+  line-height: 25px;
 }
 
 /* Resume Heading Color */
 h1 {
-  font-family: 'Baskerville Old Face';
+  font-family: 'Baskerville Old Face', Helvetica, Arial, sans-serif;
   color:#6E4D51;
   float: left;
   padding: 1%;
@@ -115,7 +116,7 @@ h1 {
 }
 h3 {
   color:#6E4D51;
-  font-family: 'Goudy Old Style';
+  font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
 }
 
 /* Resume Info Design */
@@ -151,14 +152,16 @@ aside h3 {
 }
 
 p{
-  font-family: 'Goudy Old Style';
+  font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
   font-size: 18px;
 }
 
 ul {
-  font-family: 'Goudy Old Style';
+  font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
   font-size: 18px;
 }
+
+
 /* Footer */
 footer {
   clear: both;
