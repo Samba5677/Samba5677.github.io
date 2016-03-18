@@ -1,0 +1,149 @@
+/* Design sourse by rdewolf127 http://codepen.io/rdewolf127/pen/ILHsn */
+
+/* Background IMG */
+body{
+  background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/foggy_birds.png")
+}
+
+/* Top of the Page */
+.top{
+	height:15px;
+	width:100%;
+	margin:0px 0px 60px 0px;
+}
+
+/* Main Wrap */
+#wrapper-main {
+    width:65%;
+    max-width: 65%;
+    position:relative;
+    margin:auto;
+ }
+
+/* Navigation Links */
+.nav {
+  position:absolute;
+  left:-20px;
+  margin:0px;
+}
+.nav ul li{
+	background-color:#6E4D51;
+	display:inline;
+	padding:20px 46px 30px 5px;
+  box-shadow:5px 5px 5px #888888;
+  transition: all 1s;
+
+}
+.nav ul li a{
+	text-decoration:none;
+	color:#EBE4BE;
+	font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
+	font-size:18px;
+
+}
+.nav ul li a:hover{
+	text-decoration:none;
+	color:#AD8561;
+	font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
+	font-size:18px;
+	background-color:none;
+	padding:20px 5px 20px 5px;
+}
+li:hover {
+  border-radius: 25%;
+}
+
+/* Second Background and Subtitle */
+.name {
+    background-color:#AD8561;
+    width:90%;
+    max-width: 90%;
+    height:1000px;
+    margin:45px 70px 10px 20px;
+    padding:30px;
+    float:left;
+    color:#EBE4BE;
+    font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
+    font-size:75px;
+    position:relative;
+    text-align: center;
+}
+.name .subtitle{
+	color:#EBE4BE;
+	font-size:30px;
+	position:absolute;
+	left:338px;
+	margin:10px;
+  top:110px;
+}
+.subtitle {
+  font-family: 'Palatino Linotype', Helvetica, Arial, Sans-serif;
+}
+
+/* Picture */
+.photo img{
+  height:180px;
+  width:175px;
+  position:absolute;
+  left:420px;
+  top:320px;
+  border:5px solid white;
+  box-shadow:5px 5px 5 px #888888; 
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
+  color:#6E4D51;
+  float: left;
+  padding: 1%;
+  margin: .16666667%;
+  width: 56%;
+  position: relative;
+  bottom: 900px;
+  left:690px;
+}
+
+/* Contact Me */
+form {
+  position:absolute;
+  left: 680px;
+  top: 600px;
+}
+
+
+
+label,
+input,
+textarea {
+  display: block;
+  margin: 1em;
+  clear: both;
+  font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
+}
+
+input[placeholder="Joe Smith"] {
+  border: 0;
+  padding: 1em;
+}
+
+input[type="email"] {
+
+  border: 0;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+input[type="button"] {
+  
+}
+
+:focus {
+  background: white;
+  transition: background .25s;  
+}
+
+/* Footer */
+footer {
+  clear: both;
+}
