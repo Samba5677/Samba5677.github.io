@@ -1,0 +1,144 @@
+/* Design sourse by rdewolf127 http://codepen.io/rdewolf127/pen/ILHsn */
+
+/* Background IMG */
+body{
+  background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/foggy_birds.png")
+}
+
+/* Top of the Page */
+.top{
+	height:15px;
+	width:100%;
+	margin:0px 0px 60px 0px;
+}
+
+/* Main Wrap */
+#wrapper-main {
+    width:65%;
+    max-width: 65%;
+    position:relative;
+    margin:auto;
+ }
+
+/* Navigation Links */
+.nav {
+  position:absolute;
+  left:-20px;
+  margin:0px;
+}
+.nav ul li{
+	background-color:#6E4D51;
+	display:inline;
+	padding:20px 46px 30px 5px;
+  box-shadow:5px 5px 5px #888888;
+  transition: all 1s;
+
+}
+.nav ul li a{
+	text-decoration:none;
+	color:#EBE4BE;
+	font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
+	font-size:18px;
+
+}
+.nav ul li a:hover{
+	text-decoration:none;
+	color:#AD8561;
+	font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
+	font-size:18px;
+	background-color:none;
+	padding:20px 5px 20px 5px;
+}
+li:hover {
+  border-radius: 25%;
+}
+
+/* Second Background and Subtitle */
+.name {
+    background-color:#AD8561;
+    width:90%;
+    max-width: 90%;
+    height:1000px;
+    margin:45px 70px 10px 20px;
+    padding:30px;
+    float:left;
+    color:#EBE4BE;
+    font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
+    font-size:75px;
+    position:relative;
+    text-align: center;
+}
+.name .subtitle{
+	color:#EBE4BE;
+	font-size:30px;
+	position:absolute;
+	left:338px;
+	margin:10px;
+  top:110px;
+}
+.subtitle {
+  font-family: 'Palatino Linotype', Helvetica, Arial, Sans-serif;
+}
+
+/* Resume Heading Color */
+h1 {
+  font-family: 'Baskerville Old Face', Helvetica, Arial, Sans-serif;
+  color:#6E4D51;
+  float: left;
+  padding: 1%;
+  margin: .16666667%;
+  width: 56%;
+  position: relative;
+  bottom: 900px;
+  left:720px;
+}
+h3 {
+  color:#6E4D51;
+  font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
+  font-size: 20px;
+}
+
+/* Resume Info Design */
+article {
+  color:#EBE4BE;
+  float: left;
+  padding: 1%;
+  margin: .16666667%;
+  width: 30%;
+  position: relative;
+  bottom: 830px;
+  left: -540px;
+}
+
+aside li{
+  color:#EBE4BE;
+	font-size:18px;
+  padding: .50%;
+  margin: .025;
+  width: 33%; 
+  position: relative;
+  bottom: 1390px;
+  left: 959px;
+  list-style-type: none;
+}
+aside h3 {
+  font-size: 20px;
+  color:#6E4D51;
+  position: relative;
+  top: 325px;
+  right: 345px;
+}
+
+p{
+  font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
+  font-size: 18px;
+}
+
+ul {
+  font-family: 'Goudy Old Style', Helvetica, Arial, Sans-serif;
+  font-size: 18px;
+}
+/* Footer */
+footer {
+  clear: both;
+}
